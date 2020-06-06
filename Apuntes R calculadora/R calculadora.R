@@ -58,3 +58,28 @@ NaN
 #La raíz cuadrada -> sqrt(x)
 
 sqrt(4)
+
+#####################################
+
+# R NO trabaja con más de 16 sifras decimales.
+
+#Muestra las n CIFRAS SIGNIFICATIVAS DEL NÚMERO X; (YO LE PIDO CUANTAS CIFRAS)
+##En este caso MUESTRA es la palabra clave ya que solo muetras las cifras exactas.
+print(sqrt(40), 7)# print(sqrt(40), 7) = 6.324555 -> ME MUESTRA SOLO 7 DÍGITOS.
+
+#round redondea las cifras, me mostrará el número de cifras que le pida pero redondeado.
+##CREO QUE SERÁ EL QUE MÁS UTILIZARÉ.
+round(sqrt(40),3)# = 6.325
+
+sqrt(40)# = 6.324555
+
+#(FLOOR) REDONDEA EL NÚEMERO DE CIFRAS HACÍA EL VALOR MÁS BAJO. (SUELO)
+floor(sqrt(40))
+
+#(CEILING) REDONDEA EL NÚEMERO DE CIFRAS HACÍA EL VALOR MÁS ALTO. (TECHO)
+
+ceiling(sqrt(40))
+
+## (TRUNC) SOLO MUESTRA EL NÚMERO ENTERO.
+trunc(sqrt(40))
+#Es como usar floor
